@@ -33,7 +33,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v2.3.1
         with:
-          distribution: 'openjdk'
+          distribution: 'zulu'
           java-version: '11'
         
       - uses: nttld/setup-ndk@v1
